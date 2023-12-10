@@ -124,4 +124,10 @@ export class MangaDexReader {
             });
         });
     }
+
+    // search
+    // curl -X 'GET' \
+    // 'https://api.mangadex.org/manga?limit=10&title=beat%20motion'
+    // 'https://api.mangadex.org/manga?limit=10&title=beat%20motion&includedTagsMode=AND&excludedTagsMode=OR&contentRating%5B%5D=safe&contentRating%5B%5D=suggestive&contentRating%5B%5D=erotica&order%5BlatestUploadedChapter%5D=desc' \
+    // -H 'accept: application/json'
 }
