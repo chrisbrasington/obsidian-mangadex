@@ -8,3 +8,4 @@ WORK IN PROGRESS
 TODO:
 - [ ] implement search
 - [ ] map attributes: author, cover image
+- [ ] rename/cleanup sample classes
